@@ -57,7 +57,3 @@ export default () => {
   return <Button onClick={handleDelete}>Delete</Button>;
 };
 ```
-
-<!-- TSDOC_START -->
-
-<!-- TSDOC_END -->

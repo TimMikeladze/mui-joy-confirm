@@ -18,7 +18,7 @@
   },
   "scripts": {
     "dev": "concurrently \"yarn build --watch\" \"yarn storybook\" \"yarn test\" ",
-    "build": "tsup --onSuccess \"yarn yalc publish && yarn link && yarn doc\"",
+    "build": "tsup --onSuccess \"yarn yalc publish && yarn link\"",
     "type-check": "tsc",
     "lint": "eslint --ignore-path .gitignore \"{src,tests}/**/*.+(ts|js|tsx)\"",
     "lint:fix": "yarn lint --fix && prettier --write .",
@@ -29,8 +29,7 @@
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
     "release": "yarn build && yarn release-it",
-    "link:self": "yarn yalc publish && yarn link",
-    "doc": "tsdoc --src=src/*"
+    "link:self": "yarn yalc publish && yarn link"
   },
   "tsup": {
     "entry": [
@@ -140,7 +139,6 @@
     "react-test-renderer": "18.2.0",
     "release-it": "17.0.1",
     "storybook": "7.6.4",
-    "tsdoc-markdown": "^0.1.0",
     "tsup": "8.0.1",
     "typescript": "5.3.3",
     "vitest": "^1.0.0",
