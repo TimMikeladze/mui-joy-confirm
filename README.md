@@ -2,6 +2,8 @@
 
 Confirmation dialogs built on top of @mui/joy and react hooks. The source-code is a port of the [material-ui-confirm](https://github.com/jonatanklosko/material-ui-confirm) package and is slightly rewritten to support [@mui/joy](https://mui.com/joy-ui/).
 
+Checkout this [Example Storybook](https://linesofcode.github.io/joy-ui-confirm/) for a live demo or [read the code](https://github.com/TimMikeladze/joy-ui-confirm/blob/master/src/stories/index.stories.tsx).
+
 ## 📡 Install
 
 ```console
