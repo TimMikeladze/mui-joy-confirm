@@ -1,7 +1,7 @@
 {
   "name": "joy-ui-confirm",
   "description": "✅ Confirmation dialogs built on top of @mui/joy and react hooks.",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "author": "Tim Mikeladze <tim.mikeladze@gmail.com>",
   "license": "MIT",
   "keywords": [
