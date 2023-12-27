@@ -57,3 +57,30 @@ export default () => {
   return <Button onClick={handleDelete}>Delete</Button>;
 };
 ```
+
+You can also customize the dialog by passing `defaultOptions` to the `ConfirmProvider` or directly to the `confirm` function.
+
+```tsx
+import { ConfirmProvider } from 'joy-ui-confirm';
+
+export default () => {
+  return (
+    <ConfirmProvider
+      defaultOptions={{
+        confirmationButtonProps: {
+          variant: `outlined`,
+          color: `success`,
+          size: `sm`,
+        },
+        cancellationButtonProps: {
+          variant: `outlined`,
+          color: `warning`,
+          size: `sm`,
+        },
+      }}
+    >
+      <App />
+    </ConfirmProvider>
+  );
+};
+```
