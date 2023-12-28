@@ -1,5 +1,5 @@
 {
-  "name": "joy-ui-confirm",
+  "name": "mui-joy-confirm",
   "description": "✅ Confirmation dialogs built on top of @mui/joy and react hooks.",
   "version": "1.0.1",
   "author": "Tim Mikeladze <tim.mikeladze@gmail.com>",
@@ -14,7 +14,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git@github.com:TimMikeladze/joy-ui-confirm.git"
+    "url": "git@github.com:TimMikeladze/mui-joy-confirm.git"
   },
   "scripts": {
     "dev": "concurrently \"yarn build --watch\" \"yarn storybook\" \"yarn test\" ",
