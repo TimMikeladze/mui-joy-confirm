@@ -141,7 +141,7 @@
     "storybook": "7.6.8",
     "tsup": "8.0.1",
     "typescript": "5.3.3",
-    "vitest": "^1.0.0",
+    "vitest": "^3.0.0",
     "yalc": "1.0.0-pre.53"
   },
   "peerDependencies": {
